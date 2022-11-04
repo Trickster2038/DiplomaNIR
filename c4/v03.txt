@@ -1,0 +1,71 @@
+workspace {
+
+    model {
+        user = person "Пользователь" "Учащийся"
+        
+        softwareSystem_web = softwareSystem "WEB-приложение образовательного портала" "-"
+        
+        softwareSystem2 = softwareSystem "Система тестирования знаний на HDL-языках" {
+                compiler = container "Синтезатор" "Синтезирует и тестирует проекты на HDL-языках" "Flask + IcarusVerilog"
+                analyser = container "Анализатор" "Анализирует и преобразует результаты тестов" "Flask + pyDigitalWaveTools"
+                crud_levels = container "Подсистема работы с содержанием курса" "CRUD-оболочка для заданий курса" "Flask"
+                crud_statistics = container "Подсистема работы со статистикой" "Ведет и анализирует статистику прохождения уровней" "Flask"
+                
+                db_levels = container "База данных уровней" "БД с информацией об уровнях" "MongoDB" "DB"
+                db_stats = container "База данных статистики" "БД с информацией о статистике прохождения уровней" "PostgreSQL" "DB"
+            
+        }
+        
+        live = deploymentEnvironment "Live" {
+            deploymentNode "Server 1" {
+                softwareSystem_web -> crud_statistics "Работа со статистикой прохождения курса" "JSON/HTTPS"
+                softwareSystem_web -> crud_levels "Работа с содержанием курса" "JSON/HTTPS"
+                analyser -> compiler "Использует"
+                crud_levels -> analyser "Вызывает создание временной диаграммы к заданию / проверку задания" "JSON/HTTPS"
+                crud_levels -> db_levels "Вносит изменения" "Database Connection"
+                crud_statistics -> db_stats "Вносит изменения" "Database Connection"
+            }
+        }
+        
+        user -> softwareSystem_web "Использует GUI" "HTTP/HTTPS"
+    }
+
+    views {
+        container softwareSystem2 {
+            include *
+            autolayout lr
+        }
+
+        deployment softwareSystem2 live {
+            include *
+            autolayout 
+        }
+        
+        styles {
+            element "Container" {
+                background #1168bd
+                color #ffffff
+            }
+            element "Software System" {
+                background #1168bd
+                color #ffffff
+            }
+            element "Software System 2" {
+                background #999999
+                color #ffffff
+            }
+            element "DB" {
+                shape cylinder
+                background #1168bd
+                color #ffffff
+            }
+            element "Person" {
+                shape person
+                background #08427b
+                color #ffffff
+            }
+        }
+        
+    }
+    
+}
