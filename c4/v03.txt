@@ -5,13 +5,13 @@ workspace {
         
         softwareSystem_web = softwareSystem "WEB-приложение образовательного портала" "-"
         
-        softwareSystem2 = softwareSystem "Система тестирования знаний на HDL-языках" {
+        softwareSystem2 = softwareSystem "Подсистема тестирования знаний языков описания аппаратуры" {
                 compiler = container "Синтезатор" "Синтезирует и тестирует проекты на HDL-языках" "Flask + IcarusVerilog"
-                analyser = container "Анализатор" "Анализирует и преобразует результаты тестов" "Flask + pyDigitalWaveTools"
+                analyser = container "Анализатор временных диаграмм" "Анализирует и преобразует результаты тестов" "Flask + pyDigitalWaveTools"
                 crud_levels = container "Подсистема работы с содержанием курса" "CRUD-оболочка для заданий курса" "Flask"
                 crud_statistics = container "Подсистема работы со статистикой" "Ведет и анализирует статистику прохождения уровней" "Flask"
                 
-                db_levels = container "База данных уровней" "БД с информацией об уровнях" "MongoDB" "DB"
+                db_levels = container "База данных заданий" "БД с информацией о заданиях" "MongoDB" "DB"
                 db_stats = container "База данных статистики" "БД с информацией о статистике прохождения уровней" "PostgreSQL" "DB"
             
         }
