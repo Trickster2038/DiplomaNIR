@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+<!ATTLIST svg xmlns:xlink CDATA #FIXED "http://www.w3.org/1999/xlink">
+]>
+<svg xmlns='http://www.w3.org/2000/svg'
+xmlns:xlink='http://www.w3.org/1999/xlink'
+width='1256pt' height='520pt'
+viewBox='0.0 0.0 1256.0 520.0'
+>
+<style type='text/css'>
+  svg {
+    background-color: white;
+  }
+  text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+  }
+</style>
+<g>
+  <rect x='342' y='80' width='130' height='60' fill='none' stroke='black' />
+<text text-anchor='middle' x='407' y='110'>Решение задания</text>
+
+<rect x='532' y='180' width='142' height='60' fill='none' stroke='black' />
+<text text-anchor='middle' x='603' y='210'>Проверка таймаута</text>
+
+<rect x='694' y='280' width='136' height='60' fill='none' stroke='black' />
+<text text-anchor='middle' x='762' y='310'>Проверка решения</text>
+
+<rect x='850' y='380' width='124' height='60' fill='none' stroke='black' />
+<text text-anchor='middle' x='912' y='410'>Анализ решения</text>
+
+  <path stroke='black' fill='none' d='M 974 410 L 984 410 C 989 410 994 405 994 400 L 994 70 C 994 65 989 60 984 60 L 427 60 C 422 60 417 65 417 70 L 417 80' />
+<polygon fill='black' stroke='black' points='417,80 414,74 420,74 417,80' />
+<text text-anchor='end' x='984' y='75'>Результаты анализа решения</text>
+
+<path stroke='black' fill='none' d='M 472 100 L 583 100 C 588 100 593 105 593 110 L 593 180' />
+<polygon fill='black' stroke='black' points='593,180 590,174 596,174 593,180' />
+<text text-anchor='start' x='477' y='95'>Сообщение об отправке решения</text>
+
+<path stroke='black' fill='none' d='M 472 120 L 502 120 C 507 120 512 125 512 130 L 512 290 C 512 295 517 300 522 300 L 694 300' />
+<polygon fill='black' stroke='black' points='694,300 688,303 688,297 694,300' />
+<text text-anchor='start' x='477' y='115'>Решение пользователя</text>
+
+<path stroke='black' fill='none' d='M 674 210 L 752 210 C 757 210 762 215 762 220 L 762 280' />
+<polygon fill='black' stroke='black' points='762,280 759,274 765,274 762,280' />
+<text text-anchor='start' x='679' y='205'>Сообщение об истечении таймаута</text>
+
+<path stroke='black' fill='none' d='M 472 120 L 482 120 C 487 120 492 125 492 130 L 492 390 C 492 395 497 400 502 400 L 850 400' />
+<polygon fill='black' stroke='black' points='850,400 844,403 844,397 850,400' />
+<text text-anchor='start' x='477' y='115'>Решение пользователя</text>
+
+<path stroke='black' fill='none' d='M 830 320 L 902 320 C 907 320 912 325 912 330 L 912 380' />
+<polygon fill='black' stroke='black' points='912,380 909,374 915,374 912,380' />
+<text text-anchor='start' x='835' y='315'>Сообщение о неправильности решения</text>
+
+<line x1='20' y1='110' x2='342' y2='110' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='342,110 336,113 336,107 342,110' />
+<text text-anchor='start' x='25' y='105'>Знания пользователя</text>
+
+<line x1='20' y1='200' x2='532' y2='200' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='532,200 526,203 526,197 532,200' />
+<text text-anchor='start' x='25' y='195'>Timestamp</text>
+
+<line x1='20' y1='220' x2='532' y2='220' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='532,220 526,223 526,217 532,220' />
+<text text-anchor='start' x='25' y='215'>Timestamp последнего отправленного решения</text>
+
+<line x1='20' y1='320' x2='694' y2='320' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='694,320 688,323 688,317 694,320' />
+<text text-anchor='start' x='25' y='315'>Эталонный ответ</text>
+
+<line x1='20' y1='420' x2='850' y2='420' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='850,420 844,423 844,417 850,420' />
+<text text-anchor='start' x='25' y='415'>Эталонный ответ</text>
+
+<line x1='830' y1='300' x2='1236' y2='300' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='1236,300 1230,303 1230,297 1236,300' />
+<text text-anchor='end' x='1231' y='295'>Сообщение о правильности решения</text>
+
+<line x1='397' y1='40' x2='397' y2='80' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='397,80 394,74 400,74 397,80' />
+<text text-anchor='middle' x='397' y='35'>Условия задания</text>
+
+<line x1='613' y1='40' x2='613' y2='180' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='613,180 610,174 616,174 613,180' />
+<text text-anchor='middle' x='613' y='35'>Настройки таймаута</text>
+
+<line x1='407' y1='480' x2='407' y2='140' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='407,140 404,146 410,146 407,140' />
+<text text-anchor='middle' x='407' y='495'>Пользователь</text>
+
+<line x1='603' y1='480' x2='603' y2='240' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='603,240 600,246 606,246 603,240' />
+<text text-anchor='middle' x='603' y='495'>Система тестирования</text>
+
+<line x1='762' y1='480' x2='762' y2='340' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='762,340 759,346 765,346 762,340' />
+<text text-anchor='middle' x='762' y='495'>Система тестирования</text>
+
+<line x1='912' y1='480' x2='912' y2='440' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='912,440 909,446 915,446 912,440' />
+<text text-anchor='middle' x='912' y='495'>Система тестирования</text>
+
+</g>
+</svg>
