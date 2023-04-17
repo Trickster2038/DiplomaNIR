@@ -1,3 +1,5 @@
+        softwareSystem_HDL = softwareSystem "Подсистема тестирования знаний языков описания аппаратуры" {
+
 workspace {
 
     model {
