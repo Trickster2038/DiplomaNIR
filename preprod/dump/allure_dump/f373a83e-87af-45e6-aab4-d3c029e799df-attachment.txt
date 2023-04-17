@@ -1,0 +1,3 @@
+{
+    "stat_type": "each_level_passed"
+}

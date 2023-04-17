@@ -1,8 +1,0 @@
-{
-    "status_str": "ok",
-    "status_code": 200,
-    "message": "",
-    "data": {
-        "avg_efforts": 1
-    }
-}

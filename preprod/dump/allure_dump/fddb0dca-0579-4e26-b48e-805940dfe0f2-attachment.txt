@@ -1,0 +1,16 @@
+{
+    "type": "multichoice_test",
+    "data": {
+        "user_answers": [
+            true,
+            true,
+            true
+        ],
+        "task": {
+            "correct_answers": [
+                true,
+                true
+            ]
+        }
+    }
+}

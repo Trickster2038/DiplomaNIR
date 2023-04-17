@@ -1,3 +1,0 @@
-{
-    "stat_type": "activity_by_month"
-}

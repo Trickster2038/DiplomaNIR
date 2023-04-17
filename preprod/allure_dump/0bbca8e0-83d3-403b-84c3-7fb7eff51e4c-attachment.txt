@@ -1,9 +1,0 @@
-{
-    "metainfo": {
-        "action": "read",
-        "obj_type": "levels_brief"
-    },
-    "data": {
-        "id": 1
-    }
-}

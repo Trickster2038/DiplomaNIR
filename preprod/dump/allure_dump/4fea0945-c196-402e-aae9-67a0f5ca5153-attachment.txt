@@ -1,0 +1,9 @@
+{
+    "status_str": "ok",
+    "status_code": 200,
+    "message": "checked",
+    "is_correct": true,
+    "data": {
+        "hint": "Все верно"
+    }
+}

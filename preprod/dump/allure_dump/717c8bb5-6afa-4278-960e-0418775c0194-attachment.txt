@@ -1,0 +1,9 @@
+{
+    "metainfo": {
+        "action": "read",
+        "obj_type": "levels_data"
+    },
+    "data": {
+        "id": 1
+    }
+}

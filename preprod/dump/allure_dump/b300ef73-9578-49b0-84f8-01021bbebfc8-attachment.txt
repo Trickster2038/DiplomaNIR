@@ -1,0 +1,10 @@
+{
+    "status_str": "ok",
+    "status_code": 200,
+    "message": "checked",
+    "is_correct": true,
+    "data": {
+        "false_positive": false,
+        "false_negative": false
+    }
+}

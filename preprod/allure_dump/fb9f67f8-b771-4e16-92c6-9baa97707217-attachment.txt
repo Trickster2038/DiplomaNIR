@@ -1,5 +1,0 @@
-{
-    "message": "VCD parsing error: (\"Don't understand keyword: \", 'jinnjkln')",
-    "status_code": 400,
-    "status_str": "error"
-}

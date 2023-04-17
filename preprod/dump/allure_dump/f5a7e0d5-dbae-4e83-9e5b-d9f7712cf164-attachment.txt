@@ -1,0 +1,6 @@
+{
+    "status_str": "error",
+    "status_code": 400,
+    "message": "Top-level panic: CRUD-microservice.LevelsBrief error: %!s(*string=0xc000357c18)",
+    "data": null
+}

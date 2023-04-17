@@ -1,6 +1,0 @@
-{
-    "metainfo": {
-        "action": "read_all",
-        "obj_type": "levels_brief"
-    }
-}

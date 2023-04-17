@@ -1,0 +1,10 @@
+{
+    "metainfo": {
+        "action": "check_successful",
+        "obj_type": "solution_effort"
+    },
+    "data": {
+        "user_id": 1,
+        "level_id": 1
+    }
+}

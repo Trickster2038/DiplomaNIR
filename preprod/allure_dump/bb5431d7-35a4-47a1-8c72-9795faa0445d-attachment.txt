@@ -1,4 +1,0 @@
-{
-    "user_id": 3,
-    "stat_type": "monthly_activity"
-}

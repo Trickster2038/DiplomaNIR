@@ -1,0 +1,9 @@
+{
+    "metainfo": {
+        "action": "read",
+        "obj_type": "user"
+    },
+    "data": {
+        "id": 1
+    }
+}

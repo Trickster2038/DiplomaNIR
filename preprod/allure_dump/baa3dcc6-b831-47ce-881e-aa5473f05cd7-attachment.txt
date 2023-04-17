@@ -1,7 +1,0 @@
-{
-    "status_str": "error",
-    "status_code": 400,
-    "message": "Top-level panic: runtime error: index out of range [6] with length 3",
-    "is_correct": false,
-    "data": null
-}

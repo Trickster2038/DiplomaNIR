@@ -1,0 +1,10 @@
+{
+    "status_str": "ok",
+    "status_code": 200,
+    "message": "",
+    "data": {
+        "accepted_tasks": 0,
+        "earned_points": 0,
+        "efforts": 0
+    }
+}

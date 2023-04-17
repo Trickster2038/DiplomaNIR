@@ -1,3 +1,0 @@
-{
-    "stat_type": "top_month_users"
-}

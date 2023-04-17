@@ -1,0 +1,4 @@
+{
+    "user_id": 3,
+    "stat_type": "general_progress"
+}

@@ -1,0 +1,15 @@
+{
+    "status_str": "ok",
+    "status_code": 200,
+    "message": "",
+    "data": {
+        "id": 1,
+        "level_type": 4,
+        "seqnum": 1,
+        "cost": 10,
+        "is_active": true,
+        "name": "Device lvl 1",
+        "brief": "Device test lvl",
+        "level_type_name": "program"
+    }
+}
