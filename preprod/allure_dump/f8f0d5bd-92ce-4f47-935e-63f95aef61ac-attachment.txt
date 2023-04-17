@@ -1,0 +1,31 @@
+{
+    "status_str": "ok",
+    "status_code": 200,
+    "message": "",
+    "data": [
+        {
+            "id": 1,
+            "name": "Device lvl 1",
+            "seqnum": 1,
+            "avg_efforts": 1
+        },
+        {
+            "id": 2,
+            "name": "Text lvl 1",
+            "seqnum": 2,
+            "avg_efforts": 0
+        },
+        {
+            "id": 3,
+            "name": "Single lvl 1",
+            "seqnum": 3,
+            "avg_efforts": 1
+        },
+        {
+            "id": 4,
+            "name": "Multi lvl 1",
+            "seqnum": 4,
+            "avg_efforts": 0
+        }
+    ]
+}

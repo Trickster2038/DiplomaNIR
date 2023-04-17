@@ -1,0 +1,7 @@
+{
+    "status_str": "error",
+    "status_code": 400,
+    "message": "Top-level panic: Answers arrays size mismatch",
+    "is_correct": false,
+    "data": null
+}

@@ -1,0 +1,10 @@
+{
+    "status_str": "ok",
+    "status_code": 200,
+    "message": "",
+    "data": {
+        "id": 1,
+        "nickname": "Deni",
+        "is_admin": true
+    }
+}

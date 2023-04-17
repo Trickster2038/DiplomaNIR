@@ -1,0 +1,49 @@
+{
+    "status_str": "ok",
+    "status_code": 200,
+    "message": "",
+    "data": {
+        "levels": [
+            {
+                "id": 1,
+                "level_type": 4,
+                "seqnum": 1,
+                "cost": 10,
+                "is_active": true,
+                "name": "Device lvl 1",
+                "brief": "Device test lvl",
+                "level_type_name": "program"
+            },
+            {
+                "id": 2,
+                "level_type": 1,
+                "seqnum": 2,
+                "cost": 0,
+                "is_active": true,
+                "name": "Text lvl 1",
+                "brief": "Text block",
+                "level_type_name": "text"
+            },
+            {
+                "id": 3,
+                "level_type": 2,
+                "seqnum": 3,
+                "cost": 5,
+                "is_active": true,
+                "name": "Single lvl 1",
+                "brief": "Singlechoice test",
+                "level_type_name": "singlechoice_test"
+            },
+            {
+                "id": 4,
+                "level_type": 3,
+                "seqnum": 4,
+                "cost": 7,
+                "is_active": true,
+                "name": "Multi lvl 1",
+                "brief": "Multichoice test",
+                "level_type_name": "multichoice_test"
+            }
+        ]
+    }
+}

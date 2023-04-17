@@ -1,0 +1,31 @@
+{
+    "status_str": "ok",
+    "status_code": 200,
+    "message": "",
+    "data": [
+        {
+            "id": 4,
+            "nickname": "Johny",
+            "solutions_count": 0,
+            "efforts_count": 1
+        },
+        {
+            "id": 1,
+            "nickname": "Deni",
+            "solutions_count": 0,
+            "efforts_count": 0
+        },
+        {
+            "id": 2,
+            "nickname": "David",
+            "solutions_count": 0,
+            "efforts_count": 0
+        },
+        {
+            "id": 3,
+            "nickname": "Mark",
+            "solutions_count": 0,
+            "efforts_count": 0
+        }
+    ]
+}

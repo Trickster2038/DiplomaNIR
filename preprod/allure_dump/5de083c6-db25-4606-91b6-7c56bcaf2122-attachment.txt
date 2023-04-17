@@ -1,0 +1,15 @@
+{
+    "user_id": 3,
+    "metainfo": {
+        "obj_type": "levels_brief",
+        "action": "create"
+    },
+    "data": {
+        "seqnum": 2,
+        "cost": 3,
+        "is_active": true,
+        "name": "Test create from gate 2",
+        "brief": "Description there",
+        "level_type_name": "test"
+    }
+}
